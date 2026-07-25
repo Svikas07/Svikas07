@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 220" width="500" height="220">
+  <defs>
+    <filter id="lGlow"><feGaussianBlur stdDeviation="1.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="500" height="220" rx="12" fill="#0d0117" stroke="#e91e90" stroke-width="1"/>
+  <text x="250" y="28" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="bold" fill="#ff69b4">&#x1F4BB; Top Languages</text>
+
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.30s" fill="freeze"/>
+    <text x="20" y="61" font-family="'Segoe UI', sans-serif" font-size="12" fill="#c4a0e8">C++</text>
+    <rect x="120" y="48" width="280" height="14" rx="7" fill="#2d1b4e"/>
+    <rect x="120" y="48" width="0" height="14" rx="7" fill="#f34b7d" filter="url(#lGlow)">
+      <animate attributeName="width" from="0" to="90" dur="1s" begin="0.30s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </rect>
+    <text x="420" y="60" font-family="'Segoe UI', sans-serif" font-size="11" fill="#c4a0e8">30%</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.45s" fill="freeze"/>
+    <text x="20" y="86" font-family="'Segoe UI', sans-serif" font-size="12" fill="#c4a0e8">PHP</text>
+    <rect x="120" y="73" width="280" height="14" rx="7" fill="#2d1b4e"/>
+    <rect x="120" y="73" width="0" height="14" rx="7" fill="#4F5D95" filter="url(#lGlow)">
+      <animate attributeName="width" from="0" to="60" dur="1s" begin="0.45s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </rect>
+    <text x="420" y="85" font-family="'Segoe UI', sans-serif" font-size="11" fill="#c4a0e8">20%</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.60s" fill="freeze"/>
+    <text x="20" y="111" font-family="'Segoe UI', sans-serif" font-size="12" fill="#c4a0e8">TypeScript</text>
+    <rect x="120" y="98" width="280" height="14" rx="7" fill="#2d1b4e"/>
+    <rect x="120" y="98" width="0" height="14" rx="7" fill="#3178c6" filter="url(#lGlow)">
+      <animate attributeName="width" from="0" to="45" dur="1s" begin="0.60s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </rect>
+    <text x="420" y="110" font-family="'Segoe UI', sans-serif" font-size="11" fill="#c4a0e8">15%</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.75s" fill="freeze"/>
+    <text x="20" y="136" font-family="'Segoe UI', sans-serif" font-size="12" fill="#c4a0e8">JavaScript</text>
+    <rect x="120" y="123" width="280" height="14" rx="7" fill="#2d1b4e"/>
+    <rect x="120" y="123" width="0" height="14" rx="7" fill="#f1e05a" filter="url(#lGlow)">
+      <animate attributeName="width" from="0" to="45" dur="1s" begin="0.75s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </rect>
+    <text x="420" y="135" font-family="'Segoe UI', sans-serif" font-size="11" fill="#c4a0e8">15%</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="0.90s" fill="freeze"/>
+    <text x="20" y="161" font-family="'Segoe UI', sans-serif" font-size="12" fill="#c4a0e8">CSS</text>
+    <rect x="120" y="148" width="280" height="14" rx="7" fill="#2d1b4e"/>
+    <rect x="120" y="148" width="0" height="14" rx="7" fill="#563d7c" filter="url(#lGlow)">
+      <animate attributeName="width" from="0" to="30" dur="1s" begin="0.90s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </rect>
+    <text x="420" y="160" font-family="'Segoe UI', sans-serif" font-size="11" fill="#c4a0e8">10%</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.05s" fill="freeze"/>
+    <text x="20" y="186" font-family="'Segoe UI', sans-serif" font-size="12" fill="#c4a0e8">Python</text>
+    <rect x="120" y="173" width="280" height="14" rx="7" fill="#2d1b4e"/>
+    <rect x="120" y="173" width="0" height="14" rx="7" fill="#3572A5" filter="url(#lGlow)">
+      <animate attributeName="width" from="0" to="15" dur="1s" begin="1.05s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </rect>
+    <text x="420" y="185" font-family="'Segoe UI', sans-serif" font-size="11" fill="#c4a0e8">5%</text>
+  </g>
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="0.4s" begin="1.20s" fill="freeze"/>
+    <text x="20" y="211" font-family="'Segoe UI', sans-serif" font-size="12" fill="#c4a0e8">HTML</text>
+    <rect x="120" y="198" width="280" height="14" rx="7" fill="#2d1b4e"/>
+    <rect x="120" y="198" width="0" height="14" rx="7" fill="#e34c26" filter="url(#lGlow)">
+      <animate attributeName="width" from="0" to="15" dur="1s" begin="1.20s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </rect>
+    <text x="420" y="210" font-family="'Segoe UI', sans-serif" font-size="11" fill="#c4a0e8">5%</text>
+  </g>
+</svg>
